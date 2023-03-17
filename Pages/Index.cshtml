@@ -1,0 +1,25 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Contact";
+}
+
+<body>
+    <h2>Please use the form below to contact us</h2>
+
+    <div class="col-4">
+        <form method="post">
+            <div class="mb-3">
+                <label for="name">Name: </label>
+                <input class="form-control" type="text" name="Name" />
+                <label for="email">e-mail: </label>
+                <input class="form-control" type="email" name="Email" />
+                <label for="query">Your Query</label>
+                <input class="form-control" type="text-area" name="Query" />
+            </div>
+            <button class="btn btn-primary">Submit</button>
+        </form>
+        <p>@Model.message1</p>
+    </div>
+</body>
+
