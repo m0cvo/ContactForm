@@ -31,7 +31,7 @@ namespace ContactForm.Pages
             //message.From.Add is the email address you are using to send the message
             message.From.Add(new MailboxAddress("Nigel", "someone@hotmail.com"));
             //message.To.Add provides the email address where you would like to receive the message
-            message.To.Add(new MailboxAddress("Nigel", "m0cvo@yahoo.co.uk"));
+            message.To.Add(new MailboxAddress("Nigel", "me@yahoo.co.uk"));
             //message.Subject provides a subject line header for the email
             message.Subject = "Query";
             //message.Body uses the string query that was created at the top of this page.
